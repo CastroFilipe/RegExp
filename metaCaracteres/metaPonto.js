@@ -21,3 +21,4 @@ console.log();
 console.log(notas.match(/8../g));//notas 8xx
 console.log(notas.match(/.\../g));//notas x.x
 
+console.log('bom\ndia'.match(/..../s)); //\n é uma quebra de linha e a flag s trata desse problema
